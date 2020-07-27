@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "CTm7B8JQKJXLhpchRhFLSbvxvf19soiqKmSDg+BqdPOhMtUmvfcuDJUOBcqo5rWMfh5aNrSJuYMAkbNV1+rrsQ==",
+  "success": true,
+  "projectFilePath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.iOS\\Sismologia.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\poyo_\\.nuget\\packages\\ncontrol\\0.9.1\\ncontrol.0.9.1.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\ngraphics\\0.5.0\\ngraphics.0.5.0.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.forms\\4.7.0.1179\\xamarin.forms.4.7.0.1179.nupkg.sha512"
+  ],
+  "logs": []
+}

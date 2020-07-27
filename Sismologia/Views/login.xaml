@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="Sismologia.Views.login" 
+             xmlns:local="clr-namespace:Sismologia"
+             xmlns:controls="clr-namespace:Sismologia.Controls;assembly=Sismologia"
+             Visual="Material"
+             BackgroundColor="White">
+
+
+    <Grid>
+        <!--<ff:CachedImage
+            VerticalOptions="Fill"
+            HorizontalOptions="Fill"
+            Aspect="Fill"
+            Source="http://clarityapplication.com/dev/images/11.jpg" />-->
+        <!--<Grid 
+            BackgroundColor="Black"
+            Opacity=".4" />-->
+
+        <StackLayout
+            VerticalOptions="Center"
+            Spacing="10"
+            Padding="{StaticResource LargePadding}"
+            IsVisible="{Binding IsBusy, Converter={StaticResource InvertedBoolConv}}">
+
+
+
+
+            <Label Text="Registrarme" FontSize="25"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#4e5663"></Label>
+            <Label Text="Para Continuar debes Registarte" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+
+            <Grid  Margin="0,100,0,0">
+                <Entry  Grid.Row="0" Placeholder="Correo Electronico" PlaceholderColor="#23baea">
+
+                </Entry>
+                <Entry Grid.Row="1" Placeholder="Contraseña" IsPassword="True"  PlaceholderColor="#23baea" TextColor="#535a67">
+
+                </Entry>
+
+                <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label  Grid.Row="0"  Text="Olvidaste tu contraseña?" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+                    <Label  Grid.Row="1"  Text="Presiona Aqui" FontAttributes="Bold" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23baea"></Label>
+                </StackLayout>
+
+                
+            </Grid>
+            <!--<Button Text="Login" BorderRadius="20">
+                
+            </Button>-->
+
+
+            <controls:GradientButton
+                Margin="10"
+                BorderRadius="50"
+                EndColor="#77e8fd"
+                HorizontalOptions="FillAndExpand"
+                StartColor="#428ffe"
+                Text="Login"
+                TextColor="White" 
+                x:Name="BtnLogin"/>
+
+
+
+            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center">
+                <Label  Grid.Row="0"  Text="aun no tienes usuario," FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+                <Label x:Name="lbregistrarme"  Grid.Row="1"  Text="Registrate Aqui" FontAttributes="Bold" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23baea"></Label>
+            </StackLayout>
+
+
+            <StackLayout Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,50" Padding="50">
+                <StackLayout Orientation="Horizontal">
+                    <Image Grid.Row="0" WidthRequest="120" HeightRequest="100" Source="barradivider.png"></Image>
+                    <Label Grid.Row="0" FontSize="18" HorizontalOptions="Center" VerticalOptions="Center"  TextColor="#949ba3" Text="O"></Label>
+                    <Image Grid.Row="0" WidthRequest="120" HeightRequest="100" Source="barradivider.png"></Image>
+                </StackLayout>
+                <Label FontSize="12" HorizontalOptions="Center" VerticalOptions="Center"  TextColor="#949ba3" Text="Inicia sesion  con alguna red social"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Image Grid.Row="0" WidthRequest="80" HeightRequest="80" Source="facebook.png"></Image>
+                    <Image Grid.Row="0" WidthRequest="80" HeightRequest="80" Source="google.png"></Image>
+                    <Image Grid.Row="0" WidthRequest="80" HeightRequest="80" Source="twitter.png"></Image>
+                </StackLayout>
+                
+            </StackLayout>
+
+        </StackLayout>
+        
+    </Grid>
+
+</ContentPage>
