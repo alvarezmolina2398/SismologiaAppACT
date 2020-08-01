@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:controls="clr-namespace:Sismologia.Controls;assembly=Sismologia"
+             xmlns:Maps ="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps" 
+             mc:Ignorable="d"
+             x:Class="Sismologia.Views.inicio">
+    <StackLayout>
+        <Grid VerticalOptions="Fill">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Image Source="layout.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
+            <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Start" Margin="20,50">
+
+            </StackLayout>
+            <StackLayout Orientation="Vertical" Spacing="20" HorizontalOptions="Center" Margin="0,20" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Grid>
+                        <Label Grid.Row="0" Text="Texto Random1" TextColor="White" VerticalOptions="Center" FontSize="15" HorizontalTextAlignment="Center"/>
+                        <Label Grid.Row="1" Text="Texto Random1" TextColor="White" VerticalOptions="Center" FontSize="30" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                        <Label Grid.Row="2" Text="Texto Random1" TextColor="White" VerticalOptions="Center" FontSize="15" HorizontalTextAlignment="Center"/>
+                    </Grid>
+
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+        <StackLayout Padding="25,10" Orientation="Vertical" HorizontalOptions="StartAndExpand">
+            <Label Text="Historial de Registros" FontSize="15" FontAttributes="Bold" TextColor="#949ba3"></Label>
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="120"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Column="0" Grid.Row="0" Orientation="Horizontal" HorizontalOptions="Start">
+                    <Image Source="a.png" HeightRequest="60"></Image>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="0"  Orientation="Horizontal" HorizontalOptions="Start">
+                    <Grid Grid.Row="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Text="Cristine chacka" FontSize="20" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="1" Text="Cristine chacka" FontSize="15" TextColor="#949ba3"></Label>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Grid.Column="2" Grid.Row="0"  Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Grid.Row="1" Text="+3242" FontSize="30" TextColor="#949ba3"></Label>
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Start">
+                    <Image Source="p.png" HeightRequest="60"></Image>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="1"  Orientation="Horizontal" HorizontalOptions="Start">
+                    <Grid Grid.Row="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Text="Cristine chacka" FontSize="20" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="1" Text="Cristine chacka" FontSize="15" TextColor="#949ba3"></Label>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Grid.Column="2" Grid.Row="1"  Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Grid.Row="1" Text="+0005" FontSize="30" TextColor="#949ba3"></Label>
+                </StackLayout>
+
+
+                <StackLayout Grid.Column="0" Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Start">
+                    <Image Source="u.png" HeightRequest="60"></Image>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="2"  Orientation="Horizontal" HorizontalOptions="Start">
+                    <Grid Grid.Row="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Text="Cristine chacka" FontSize="20" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="1" Text="Cristine chacka" FontSize="15" TextColor="#949ba3"></Label>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Grid.Column="2" Grid.Row="2"  Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Grid.Row="1" Text="-6356" FontSize="30" TextColor="#949ba3"></Label>
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.Row="3" Orientation="Horizontal" HorizontalOptions="Start">
+                    <Image Source="g.png" HeightRequest="60"></Image>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="3"  Orientation="Horizontal" HorizontalOptions="Start">
+                    <Grid Grid.Row="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Text="Cristine chacka" FontSize="20" FontAttributes="Bold"></Label>
+                        <Label Grid.Row="1" Text="Cristine chacka" FontSize="15" TextColor="#949ba3"></Label>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Grid.Column="2" Grid.Row="3"  Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Grid.Row="1" Text="+89465" FontSize="30" TextColor="#949ba3"></Label>
+                </StackLayout>
+
+
+
+            </Grid>
+        </StackLayout>
+
+        <StackLayout Padding="25,10" Orientation="Vertical" HorizontalOptions="StartAndExpand">
+            <Label Text="Mapa de Sitios" FontSize="15" FontAttributes="Bold" TextColor="#949ba3"></Label>
+            <Maps:Map WidthRequest="380" HeightRequest="200" x:Name="Mymap" MapType="Hybrid">
+                
+            </Maps:Map>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

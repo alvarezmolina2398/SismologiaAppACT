@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:controls="clr-namespace:Sismologia.Controls;assembly=Sismologia"
+             x:Class="Sismologia.Views.RecuperarClave">
+    <Grid>
+        <StackLayout
+            VerticalOptions="Center"
+            Spacing="10"
+            Padding="{StaticResource LargePadding}"
+            IsVisible="{Binding IsBusy, Converter={StaticResource InvertedBoolConv}}">
+
+
+
+
+            <Label Text="Recuperar Contraseña" FontSize="25"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#4e5663"></Label>
+            <Label Text="Ingresa tu correo electronico para enviarte el codigo de recuperacion" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+
+            <Grid  Margin="0,100,0,0">
+                <Entry Grid.Row="3" Placeholder="Correo Electronico"  PlaceholderColor="#23baea" TextColor="#535a67">
+
+                </Entry>
+
+
+
+            </Grid>
+            <!--<Button Text="Login" BorderRadius="20">
+                
+            </Button>-->
+
+
+            <controls:GradientButton
+                Margin="10"
+                BorderRadius="50"
+                EndColor="#77e8fd"
+                HorizontalOptions="FillAndExpand"
+                StartColor="#428ffe"
+                Text="SIGUIENTE"
+                TextColor="White" 
+                Command="{Binding Command}"
+                x:Name="BtnSiguiente"/>
+
+
+
+            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center">
+                <Label  Grid.Row="0"  Text="Ya posees un usuario," FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+                <Label x:Name="lbIniciarSesion"  Grid.Row="1"  Text="Inicia Sesion" FontAttributes="Bold" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23baea"></Label>
+            </StackLayout>
+
+       
+
+
+
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

@@ -11,8 +11,8 @@
              Visual="Material"
              BackgroundColor="White">
 
-
-    <Grid>
+    <ScrollView HeightRequest="3000">
+        <Grid>
         <!--<ff:CachedImage
             VerticalOptions="Fill"
             HorizontalOptions="Fill"
@@ -31,20 +31,20 @@
 
 
 
-            <Label Text="Registrarme" FontSize="25"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#4e5663"></Label>
-            <Label Text="Para Continuar debes Registarte" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+            <Label Text="Login" FontSize="25"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#4e5663"></Label>
+            <Label Text="Para Continuar debes Iniciar Sesion" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
 
             <Grid  Margin="0,100,0,0">
-                <Entry  Grid.Row="0" Placeholder="Correo Electronico" PlaceholderColor="#23baea">
+                    <Entry  Grid.Row="0" Placeholder="Correo Electronico" PlaceholderColor="#23baea" x:Name="txtcorreo">
 
                 </Entry>
-                <Entry Grid.Row="1" Placeholder="Contraseña" IsPassword="True"  PlaceholderColor="#23baea" TextColor="#535a67">
+                <Entry Grid.Row="1" Placeholder="Contraseña" IsPassword="True"  PlaceholderColor="#23baea" TextColor="#535a67" x:Name="txtpassword">
 
                 </Entry>
 
                 <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center">
                     <Label  Grid.Row="0"  Text="Olvidaste tu contraseña?" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
-                    <Label  Grid.Row="1"  Text="Presiona Aqui" FontAttributes="Bold" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23baea"></Label>
+                        <Label  x:Name="lbrecuperar"  Grid.Row="1"  Text="Presiona Aqui" FontAttributes="Bold" FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#23baea"></Label>
                 </StackLayout>
 
                 
@@ -62,6 +62,7 @@
                 StartColor="#428ffe"
                 Text="Login"
                 TextColor="White" 
+                Command="{Binding Command}"
                 x:Name="BtnLogin"/>
 
 
@@ -90,5 +91,5 @@
         </StackLayout>
         
     </Grid>
-
+    </ScrollView>
 </ContentPage>

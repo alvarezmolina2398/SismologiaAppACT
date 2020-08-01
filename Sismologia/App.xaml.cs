@@ -27,7 +27,7 @@ namespace Sismologia
         {
             InitializeComponent();
 
-            Current.MainPage = new NavigationPage(new Registarme());
+            Current.MainPage = new NavigationPage(new AlertaRoja());
         }
 
         protected override void OnStart()

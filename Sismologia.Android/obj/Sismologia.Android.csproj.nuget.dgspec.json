@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.Android\\Sismologia.Android.csproj": {}
+    "D:\\Sismologia\\SismologiaAppACT\\Sismologia.Android\\Sismologia.Android.csproj": {}
   },
   "projects": {
-    "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.Android\\Sismologia.Android.csproj": {
+    "D:\\Sismologia\\SismologiaAppACT\\Sismologia.Android\\Sismologia.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.Android\\Sismologia.Android.csproj",
+        "projectUniqueName": "D:\\Sismologia\\SismologiaAppACT\\Sismologia.Android\\Sismologia.Android.csproj",
         "projectName": "Sismologia.Android",
-        "projectPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.Android\\Sismologia.Android.csproj",
-        "packagesPath": "C:\\Users\\poyo_\\.nuget\\packages\\",
-        "outputPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.Android\\obj\\",
+        "projectPath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia.Android\\Sismologia.Android.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\poyo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia\\Sismologia.csproj": {
-                "projectPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia\\Sismologia.csproj"
+              "D:\\Sismologia\\SismologiaAppACT\\Sismologia\\Sismologia.csproj": {
+                "projectPath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia\\Sismologia.csproj"
               }
             }
           }
@@ -50,6 +50,30 @@
               "target": "Package",
               "version": "[0.5.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xam.Plugin.SimpleAudioPlayer": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Xam.Plugins.Notifier": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Xam.Plugins.Vibrate": {
+              "target": "Package",
+              "version": "[4.0.0.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
@@ -57,25 +81,30 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.7.0.1179, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.7.0.1179, )"
             }
           }
         }
       }
     },
-    "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia\\Sismologia.csproj": {
+    "D:\\Sismologia\\SismologiaAppACT\\Sismologia\\Sismologia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia\\Sismologia.csproj",
+        "projectUniqueName": "D:\\Sismologia\\SismologiaAppACT\\Sismologia\\Sismologia.csproj",
         "projectName": "Sismologia",
-        "projectPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia\\Sismologia.csproj",
-        "packagesPath": "C:\\Users\\poyo_\\.nuget\\packages\\",
-        "outputPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia\\obj\\",
+        "projectPath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia\\Sismologia.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\poyo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -114,6 +143,30 @@
               "target": "Package",
               "version": "[0.5.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xam.Plugin.SimpleAudioPlayer": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Xam.Plugins.Notifier": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Xam.Plugins.Vibrate": {
+              "target": "Package",
+              "version": "[4.0.0.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
@@ -123,6 +176,10 @@
               "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.7.0.1179, )"
+            },
+            "Xamarin.Forms.Maps": {
               "target": "Package",
               "version": "[4.7.0.1179, )"
             }

@@ -42,3 +42,27 @@ D:\NUEVOS PROYECTOS\Sismologia\SismologiaApp-master\Sismologia\bin\Debug\netstan
 D:\NUEVOS PROYECTOS\Sismologia\SismologiaApp-master\Sismologia\obj\Debug\netstandard2.0\Sismologia.csproj.CoreCompileInputs.cache
 D:\NUEVOS PROYECTOS\Sismologia\SismologiaApp-master\Sismologia\obj\Debug\netstandard2.0\XamlC.stamp
 D:\NUEVOS PROYECTOS\Sismologia\SismologiaApp-master\Sismologia\obj\Debug\netstandard2.0\Views\Registarme.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\bin\Debug\netstandard2.0\Sismologia.deps.json
+D:\Sismologia\SismologiaAppACT\Sismologia\bin\Debug\netstandard2.0\Sismologia.dll
+D:\Sismologia\SismologiaAppACT\Sismologia\bin\Debug\netstandard2.0\ref\Sismologia.dll
+D:\Sismologia\SismologiaAppACT\Sismologia\bin\Debug\netstandard2.0\Sismologia.pdb
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Sismologia.csprojAssemblyReference.cache
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\CodeRecuperacion.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\login.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\NewPassword.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\RecuperarClave.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\Registarme.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Sismologia.AssemblyInfoInputs.cache
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Sismologia.AssemblyInfo.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Sismologia.dll
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\ref\Sismologia.dll
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Sismologia.pdb
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\Dashboard.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\inicio.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\Configuracion.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\Permisos.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Views\AlertaRoja.xaml.g.cs
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\Sismologia.csproj.CoreCompileInputs.cache
+D:\Sismologia\SismologiaAppACT\Sismologia\obj\Debug\netstandard2.0\XamlC.stamp

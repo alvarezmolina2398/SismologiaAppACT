@@ -17,6 +17,15 @@
           "lib/Xamarin.iOS10/NControl.iOS.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "NGraphics/0.5.0": {
         "type": "package",
         "dependencies": {
@@ -29,6 +38,21 @@
         "runtime": {
           "lib/Xamarin.iOS10/NGraphics.dll": {},
           "lib/Xamarin.iOS10/NGraphics.iOS.dll": {}
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
         }
       },
       "System.Runtime.Serialization.Primitives/4.3.0": {
@@ -47,6 +71,49 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
+      "Xam.Plugins.Vibrate/4.0.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Vibrate.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Vibrate.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -212,15 +279,36 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.7.0.1179": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.1179"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "Sismologia/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "NControl": "0.9.1",
           "NGraphics": "0.5.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Plugin.Permissions": "6.0.1",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
+          "Xam.Plugins.Notifier": "3.0.1",
+          "Xam.Plugins.Vibrate": "4.0.0.5",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.7.0.1179"
+          "Xamarin.Forms": "4.7.0.1179",
+          "Xamarin.Forms.Maps": "4.7.0.1179"
         },
         "compile": {
           "bin/placeholder/Sismologia.dll": {}
@@ -246,6 +334,15 @@
           "lib/Xamarin.iOS10/NControl.iOS.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "NGraphics/0.5.0": {
         "type": "package",
         "dependencies": {
@@ -258,6 +355,21 @@
         "runtime": {
           "lib/Xamarin.iOS10/NGraphics.dll": {},
           "lib/Xamarin.iOS10/NGraphics.iOS.dll": {}
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
         }
       },
       "System.Runtime.Serialization.Primitives/4.3.0": {
@@ -276,6 +388,49 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
+      "Xam.Plugins.Vibrate/4.0.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Vibrate.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Vibrate.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -441,15 +596,36 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.7.0.1179": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.1179"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "Sismologia/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "NControl": "0.9.1",
           "NGraphics": "0.5.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Plugin.Permissions": "6.0.1",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
+          "Xam.Plugins.Notifier": "3.0.1",
+          "Xam.Plugins.Vibrate": "4.0.0.5",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.7.0.1179"
+          "Xamarin.Forms": "4.7.0.1179",
+          "Xamarin.Forms.Maps": "4.7.0.1179"
         },
         "compile": {
           "bin/placeholder/Sismologia.dll": {}
@@ -475,6 +651,15 @@
           "lib/Xamarin.iOS10/NControl.iOS.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "NGraphics/0.5.0": {
         "type": "package",
         "dependencies": {
@@ -487,6 +672,21 @@
         "runtime": {
           "lib/Xamarin.iOS10/NGraphics.dll": {},
           "lib/Xamarin.iOS10/NGraphics.iOS.dll": {}
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
         }
       },
       "System.Runtime.Serialization.Primitives/4.3.0": {
@@ -505,6 +705,49 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
+      "Xam.Plugins.Vibrate/4.0.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Vibrate.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Vibrate.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -670,15 +913,36 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.7.0.1179": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.1179"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "Sismologia/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "NControl": "0.9.1",
           "NGraphics": "0.5.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Plugin.Permissions": "6.0.1",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
+          "Xam.Plugins.Notifier": "3.0.1",
+          "Xam.Plugins.Vibrate": "4.0.0.5",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.7.0.1179"
+          "Xamarin.Forms": "4.7.0.1179",
+          "Xamarin.Forms.Maps": "4.7.0.1179"
         },
         "compile": {
           "bin/placeholder/Sismologia.dll": {}
@@ -704,6 +968,15 @@
           "lib/Xamarin.iOS10/NControl.iOS.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "NGraphics/0.5.0": {
         "type": "package",
         "dependencies": {
@@ -716,6 +989,21 @@
         "runtime": {
           "lib/Xamarin.iOS10/NGraphics.dll": {},
           "lib/Xamarin.iOS10/NGraphics.iOS.dll": {}
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
         }
       },
       "System.Runtime.Serialization.Primitives/4.3.0": {
@@ -734,6 +1022,49 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll": {}
+        }
+      },
+      "Xam.Plugins.Notifier/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll": {}
+        }
+      },
+      "Xam.Plugins.Vibrate/4.0.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Vibrate.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Vibrate.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -899,15 +1230,36 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.7.0.1179": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.7.0.1179"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "Sismologia/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "NControl": "0.9.1",
           "NGraphics": "0.5.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Plugin.Permissions": "6.0.1",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xam.Plugin.SimpleAudioPlayer": "1.4.0",
+          "Xam.Plugins.Notifier": "3.0.1",
+          "Xam.Plugins.Vibrate": "4.0.0.5",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.7.0.1179"
+          "Xamarin.Forms": "4.7.0.1179",
+          "Xamarin.Forms.Maps": "4.7.0.1179"
         },
         "compile": {
           "bin/placeholder/Sismologia.dll": {}
@@ -941,6 +1293,37 @@
         "lib/wpa81/NControl.dll",
         "ncontrol.0.9.1.nupkg.sha512",
         "ncontrol.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "NGraphics/0.5.0": {
@@ -981,6 +1364,37 @@
         "lib/uap10.0/NGraphics.xml",
         "ngraphics.0.5.0.nupkg.sha512",
         "ngraphics.nuspec"
+      ]
+    },
+    "Plugin.Permissions/6.0.1": {
+      "sha512": "na/0FNhyKmSicANWZMLSM0y/FW2AvLoawX3lsvBpELwP15sdJRyuBhRKk1OQjRoNrmTIewcON1tJFyydjMGWcA==",
+      "type": "package",
+      "path": "plugin.permissions/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Permissions.dll",
+        "lib/monoandroid10.0/Plugin.Permissions.pdb",
+        "lib/monoandroid80/Plugin.Permissions.dll",
+        "lib/monoandroid80/Plugin.Permissions.pdb",
+        "lib/monoandroid81/Plugin.Permissions.dll",
+        "lib/monoandroid81/Plugin.Permissions.pdb",
+        "lib/monoandroid90/Plugin.Permissions.dll",
+        "lib/monoandroid90/Plugin.Permissions.pdb",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.pdb",
+        "lib/netstandard2.0/Plugin.Permissions.dll",
+        "lib/netstandard2.0/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.dll",
+        "lib/uap10.0.16299/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.pri",
+        "lib/xamarinios10/Plugin.Permissions.dll",
+        "lib/xamarinios10/Plugin.Permissions.pdb",
+        "lib/xamarintvos10/Plugin.Permissions.dll",
+        "lib/xamarintvos10/Plugin.Permissions.pdb",
+        "plugin.permissions.6.0.1.nupkg.sha512",
+        "plugin.permissions.nuspec",
+        "readme.txt"
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
@@ -1069,6 +1483,133 @@
         "lib/Xamarin.iOS10/WebP.Touch.xml",
         "webp.touch.1.0.8.nupkg.sha512",
         "webp.touch.nuspec"
+      ]
+    },
+    "Xam.Plugin.Geolocator/4.5.0.6": {
+      "sha512": "Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
+      "type": "package",
+      "path": "xam.plugin.geolocator/4.5.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.Geolocator.dll",
+        "lib/monoandroid71/Plugin.Geolocator.xml",
+        "lib/netstandard1.0/Plugin.Geolocator.dll",
+        "lib/netstandard1.0/Plugin.Geolocator.xml",
+        "lib/netstandard2.0/Plugin.Geolocator.dll",
+        "lib/netstandard2.0/Plugin.Geolocator.xml",
+        "lib/uap10.0.10240/Plugin.Geolocator.dll",
+        "lib/uap10.0.10240/Plugin.Geolocator.pri",
+        "lib/uap10.0.10240/Plugin.Geolocator.xml",
+        "lib/xamarinios10/Plugin.Geolocator.dll",
+        "lib/xamarinios10/Plugin.Geolocator.xml",
+        "lib/xamarinmac20/Plugin.Geolocator.dll",
+        "lib/xamarinmac20/Plugin.Geolocator.xml",
+        "lib/xamarintvos10/Plugin.Geolocator.dll",
+        "lib/xamarintvos10/Plugin.Geolocator.xml",
+        "readme.txt",
+        "xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+        "xam.plugin.geolocator.nuspec"
+      ]
+    },
+    "Xam.Plugin.SimpleAudioPlayer/1.4.0": {
+      "sha512": "QzfFZhmebaNBdQ0o2XcMLKKUsdxYpIZd50qOUuuls1zIj2ixudS3QoYOp9v27Fwa0CL1e9jEeAMgyBH7Qpimlw==",
+      "type": "package",
+      "path": "xam.plugin.simpleaudioplayer/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.XML",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.dll",
+        "lib/MonoAndroid10/Plugin.SimpleAudioPlayer.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.dll",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.pdb",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.pri",
+        "lib/UAP10/Plugin.SimpleAudioPlayer.xml",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarin.Mac20/Plugin.SimpleAudioPlayer.xml",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.XML",
+        "lib/Xamarin.iOS10/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.dll",
+        "lib/Xamarintvos/Plugin.SimpleAudioPlayer.xml",
+        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/net45/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/net45/Plugin.SimpleAudioPlayer.dll",
+        "lib/net45/Plugin.SimpleAudioPlayer.pdb",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.deps.json",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.dll",
+        "lib/netstandard1.0/Plugin.SimpleAudioPlayer.pdb",
+        "xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512",
+        "xam.plugin.simpleaudioplayer.nuspec"
+      ]
+    },
+    "Xam.Plugins.Notifier/3.0.1": {
+      "sha512": "QH/+zX9w/hMg1AOAj+a62cIJIqd4tSOSBnGGprHIhfJWHG+v+P6VvIqZSTr9z1dZDd2JfhA7Iz2KGBr4MJ2lOQ==",
+      "type": "package",
+      "path": "xam.plugins.notifier/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.XML",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.dll",
+        "lib/MonoAndroid10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/UAP10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/UAP10/Plugin.LocalNotifications.XML",
+        "lib/UAP10/Plugin.LocalNotifications.dll",
+        "lib/UAP10/Plugin.LocalNotifications.pdb",
+        "lib/UAP10/Plugin.LocalNotifications.pri",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.dll",
+        "lib/Xamarin.Mac20/Plugin.LocalNotifications.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.XML",
+        "lib/Xamarin.iOS10/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.LocalNotifications.deps.json",
+        "lib/netstandard1.0/Plugin.LocalNotifications.dll",
+        "lib/netstandard1.0/Plugin.LocalNotifications.xml",
+        "xam.plugins.notifier.3.0.1.nupkg.sha512",
+        "xam.plugins.notifier.nuspec"
+      ]
+    },
+    "Xam.Plugins.Vibrate/4.0.0.5": {
+      "sha512": "N4VdnyKlSfGGhgLqtBWaBh8wEH0Vr0PJRZbIMenvc12410ZIrY8+bsz2NNN20iJdfo+hg4Wj/XnR/a/TKThTcw==",
+      "type": "package",
+      "path": "xam.plugins.vibrate/4.0.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid60/Plugin.Vibrate.dll",
+        "lib/monoandroid60/Plugin.Vibrate.xml",
+        "lib/netstandard1.0/Plugin.Vibrate.dll",
+        "lib/netstandard1.0/Plugin.Vibrate.xml",
+        "lib/netstandard2.0/Plugin.Vibrate.dll",
+        "lib/netstandard2.0/Plugin.Vibrate.xml",
+        "lib/uap10.0.15063/Plugin.Vibrate.dll",
+        "lib/uap10.0.15063/Plugin.Vibrate.pri",
+        "lib/uap10.0.15063/Plugin.Vibrate.xml",
+        "lib/xamarinios10/Plugin.Vibrate.dll",
+        "lib/xamarinios10/Plugin.Vibrate.xml",
+        "xam.plugins.vibrate.4.0.0.5.nupkg.sha512",
+        "xam.plugins.vibrate.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.3.2": {
@@ -1543,6 +2084,43 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/4.7.0.1179": {
+      "sha512": "0XOB/M4s8Ph/hBQN3zFLEqqm1jTbxp6qCJIsSfyURqPnotCdOXossuAEeP4VqHdxVThpKL9rt30bUH86+7YSYQ==",
+      "type": "package",
+      "path": "xamarin.forms.maps/4.7.0.1179",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.4.7.0.1179.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "Sismologia/1.0.0": {
       "type": "project",
       "path": "../Sismologia/Sismologia.csproj",
@@ -1552,30 +2130,37 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "NGraphics >= 0.5.0",
+      "Newtonsoft.Json >= 12.0.3",
+      "Plugin.Permissions >= 6.0.1",
       "Sismologia >= 1.0.0",
+      "Xam.Plugin.Geolocator >= 4.5.0.6",
+      "Xam.Plugin.SimpleAudioPlayer >= 1.4.0",
+      "Xam.Plugins.Notifier >= 3.0.1",
+      "Xam.Plugins.Vibrate >= 4.0.0.5",
       "Xamarin.Essentials >= 1.5.3.2",
-      "Xamarin.Forms >= 4.7.0.1179"
+      "Xamarin.Forms >= 4.7.0.1179",
+      "Xamarin.Forms.Maps >= 4.7.0.1179"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\poyo_\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.iOS\\Sismologia.iOS.csproj",
+      "projectUniqueName": "D:\\Sismologia\\SismologiaAppACT\\Sismologia.iOS\\Sismologia.iOS.csproj",
       "projectName": "Sismologia.iOS",
-      "projectPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.iOS\\Sismologia.iOS.csproj",
-      "packagesPath": "C:\\Users\\poyo_\\.nuget\\packages\\",
-      "outputPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.iOS\\obj\\",
+      "projectPath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia.iOS\\Sismologia.iOS.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\poyo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1589,8 +2174,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia\\Sismologia.csproj": {
-              "projectPath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia\\Sismologia.csproj"
+            "D:\\Sismologia\\SismologiaAppACT\\Sismologia\\Sismologia.csproj": {
+              "projectPath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia\\Sismologia.csproj"
             }
           }
         }
@@ -1603,11 +2188,39 @@
             "target": "Package",
             "version": "[0.5.0, )"
           },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "Plugin.Permissions": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
+          "Xam.Plugin.Geolocator": {
+            "target": "Package",
+            "version": "[4.5.0.6, )"
+          },
+          "Xam.Plugin.SimpleAudioPlayer": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          },
+          "Xam.Plugins.Notifier": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "Xam.Plugins.Vibrate": {
+            "target": "Package",
+            "version": "[4.0.0.5, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.5.3.2, )"
           },
           "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.7.0.1179, )"
+          },
+          "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[4.7.0.1179, )"
           }

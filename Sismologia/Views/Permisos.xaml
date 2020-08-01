@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:controls="clr-namespace:Sismologia.Controls;assembly=Sismologia"
+             x:Class="Sismologia.Views.Permisos">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" Spacing="10"  HorizontalOptions="Start" Margin="0,50">
+            <Grid>
+                <Label Grid.Row="1" Text="Listado de Permisos" FontSize="25"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#4e5663"></Label>
+                <Label Grid.Row="2" Text="Para el correcto funcionamiento de la app es necesario que brinde ciertos permisos." FontSize="12"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="#949ba3"></Label>
+            </Grid>
+        </StackLayout>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+            </Grid>
+        </StackLayout>
+
+
+        <StackLayout Grid.Row="1" Padding="25,10" Orientation="Vertical" HorizontalOptions="StartAndExpand">
+            <Label Text="Notificaciones y App" FontSize="15" FontAttributes="Bold" TextColor="#949ba3"></Label>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="280"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <StackLayout Grid.Column="0" Grid.Row="0">
+                        <Label Grid.Column="0" Grid.Row="0" Text="ACCESSO A  LA UBICACION"  FontAttributes="Bold" FontSize="15"/>
+                        <Label  TextColor="#949ba3" Grid.Column="0" Grid.Row="1" Text="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final." VerticalOptions="Center" FontSize="12" />
+                    </StackLayout>
+                    <StackLayout  Grid.Column="1" Grid.Row="0" VerticalOptions="End">
+                        <Switch   x:Name="swubicacion" Toggled="swubicacion_Toggled"  />
+                    </StackLayout>
+
+
+
+                    <StackLayout Grid.Column="0" Grid.Row="1">
+                        <Label Grid.Column="0" Grid.Row="0" Text="NOTICACIONES"  FontAttributes="Bold" FontSize="15"/>
+                        <Label  TextColor="#949ba3" Grid.Column="0" Grid.Row="1" Text="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final." VerticalOptions="Center" FontSize="12" />
+                    </StackLayout>
+                    <StackLayout  Grid.Column="1" Grid.Row="1" VerticalOptions="End">
+                        <Switch   x:Name="wsnotificaciones"  Toggled="wsnotificaciones_Toggled" />
+                    </StackLayout>
+
+
+
+
+                    <StackLayout Grid.Column="0" Grid.Row="2">
+                        <Label Grid.Column="0" Grid.Row="0" Text="MODO SILENCIO"  FontAttributes="Bold" FontSize="15"/>
+                        <Label  TextColor="#949ba3" Grid.Column="0" Grid.Row="1" Text="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final." VerticalOptions="Center" FontSize="12" />
+                    </StackLayout>
+                    <StackLayout  Grid.Column="1" Grid.Row="2" VerticalOptions="End">
+                        <Switch   x:Name="swModoloSilencio" Toggled="swModoloSilencio_Toggled"  />
+                    </StackLayout>
+
+
+
+                    <StackLayout Grid.Column="0" Grid.Row="3">
+                        <Label Grid.Column="0" Grid.Row="0" Text="DIBUJADO SOBRE OTRAS APLICACIONES"  FontAttributes="Bold" FontSize="15"/>
+                        <Label  TextColor="#949ba3" Grid.Column="0" Grid.Row="1" Text="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final." VerticalOptions="Center" FontSize="12" />
+                    </StackLayout>
+                    <StackLayout  Grid.Column="1" Grid.Row="3" VerticalOptions="End">
+                        <Switch   x:Name="wsdibujado" Toggled="wsdibujado_Toggled"  />
+                    </StackLayout>
+
+
+
+
+
+
+
+
+
+                </Grid>
+
+            </StackLayout>
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                <controls:GradientButton
+                Margin="10"
+                BorderRadius="50"
+                EndColor="#77e8fd"
+                HorizontalOptions="FillAndExpand"
+                StartColor="#428ffe"
+                Text="Finalizar"
+                TextColor="White" 
+                Command="{Binding Command}"
+                x:Name="BtnLogin"/>
+            </StackLayout>
+        </StackLayout>
+       
+        
+
+    </Grid>
+</ContentPage>

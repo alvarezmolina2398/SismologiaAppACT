@@ -1,17 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "CTm7B8JQKJXLhpchRhFLSbvxvf19soiqKmSDg+BqdPOhMtUmvfcuDJUOBcqo5rWMfh5aNrSJuYMAkbNV1+rrsQ==",
+  "dgSpecHash": "SdQNK0jwwQ+9klq9TKJ4yhq7/VNXjQ3Uc7YD2Ap5JTAWlN6HcALHgzSNk06ELFu2OGVgWgr1UbTY50ejcpbJ8g==",
   "success": true,
-  "projectFilePath": "D:\\NUEVOS PROYECTOS\\Sismologia\\SismologiaApp-master\\Sismologia.iOS\\Sismologia.iOS.csproj",
+  "projectFilePath": "D:\\Sismologia\\SismologiaAppACT\\Sismologia.iOS\\Sismologia.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\poyo_\\.nuget\\packages\\ncontrol\\0.9.1\\ncontrol.0.9.1.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\ngraphics\\0.5.0\\ngraphics.0.5.0.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
-    "C:\\Users\\poyo_\\.nuget\\packages\\xamarin.forms\\4.7.0.1179\\xamarin.forms.4.7.0.1179.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\ncontrol\\0.9.1\\ncontrol.0.9.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\ngraphics\\0.5.0\\ngraphics.0.5.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\plugin.permissions\\6.0.1\\plugin.permissions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xam.plugin.simpleaudioplayer\\1.4.0\\xam.plugin.simpleaudioplayer.1.4.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xam.plugins.notifier\\3.0.1\\xam.plugins.notifier.3.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xam.plugins.vibrate\\4.0.0.5\\xam.plugins.vibrate.4.0.0.5.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.forms\\4.7.0.1179\\xamarin.forms.4.7.0.1179.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xamarin.forms.maps\\4.7.0.1179\\xamarin.forms.maps.4.7.0.1179.nupkg.sha512"
   ],
   "logs": []
 }

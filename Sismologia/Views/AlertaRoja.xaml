@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Sismologia.Views.AlertaRoja" 
+             BackgroundColor="#f50057">
+    <ContentPage.Content>
+        <StackLayout Padding="50" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+            <Image Source="vibracion.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Text="ALERTA!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="White"  FontSize="25"/>
+            <Label Text="SISMO PELIGROSO"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="White"  FontSize="40" FontAttributes="bold"/>
+            <Label Text="Tiempo Estimado Para la llegada" Margin="0,50"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="White"  FontSize="15"/>
+            <Label Text="{Binding MyStringProperty}" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="White"  FontSize="50" x:Name="lbTimer" FontAttributes="Bold"></Label>
+            <Button  Margin="0,50" Text="CERRAR" BackgroundColor="White" TextColor="#f50057" CornerRadius="30" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
